@@ -18,7 +18,7 @@ export default class Form extends React.Component {
             onChange={ onInputChange }
             type="text"
             id="nameCard"
-            name="nameCard"
+            name="cardName"
             data-testid="name-input"
           />
         </label>
@@ -29,7 +29,7 @@ export default class Form extends React.Component {
             onChange={ onInputChange }
             type="textarea"
             id="descriptionCard"
-            name="descriptionCard"
+            name="cardDescription"
             data-testid="description-input"
           />
         </label>
@@ -40,7 +40,7 @@ export default class Form extends React.Component {
             onChange={ onInputChange }
             type="number"
             id="Attr1Card"
-            name="Attr1Card"
+            name="cardAttr1"
             data-testid="attr1-input"
           />
         </label>
@@ -51,7 +51,7 @@ export default class Form extends React.Component {
             onChange={ onInputChange }
             type="number"
             id="Attr2Card"
-            name="Attr2Card"
+            name="cardAttr2"
             data-testid="attr2-input"
           />
         </label>
@@ -62,7 +62,7 @@ export default class Form extends React.Component {
             onChange={ onInputChange }
             type="number"
             id="Attr3Card"
-            name="Attr3Card"
+            name="cardAttr3"
             data-testid="attr3-input"
           />
         </label>
@@ -73,7 +73,7 @@ export default class Form extends React.Component {
             onChange={ onInputChange }
             type="text"
             id="ImageCard"
-            name="ImageCard"
+            name="cardImage"
             data-testid="image-input"
           />
         </label>
@@ -83,7 +83,7 @@ export default class Form extends React.Component {
             value={ cardRare }
             onChange={ onInputChange }
             data-testid="rare-input"
-            name="rareType"
+            name="cardRare"
           >
             <option value="normal">Normal</option>
             <option value="raro">Raro</option>
@@ -97,7 +97,7 @@ export default class Form extends React.Component {
             onChange={ onInputChange }
             type="checkbox"
             id="trunfoCard"
-            name="trunfoCard"
+            name="cardTrunfo"
             data-testid="trunfo-input"
           />
         </label>
