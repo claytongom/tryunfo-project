@@ -11,6 +11,7 @@ class App extends React.Component {
     cardAttr2: '',
     cardAttr3: '',
     cardRare: '',
+    hasTrunfo: false,
     cardTrunfo: false,
     isSaveButtonDisabled: true,
     cards: [],
@@ -61,6 +62,10 @@ class App extends React.Component {
       cardRare,
       cardTrunfo,
     } = this.state;
+
+    if (cardTrunfo) {
+      this.setState({ hasTrunfo: true });
+    }
 
     const newCard = {
       name: cardName,
